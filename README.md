@@ -1,0 +1,1 @@
+This repository demonstrates a potential code smell in Ruby: directly modifying an object's internal state using `instance_variable_set`. While it works, it violates the principle of encapsulation and can lead to unexpected behavior and maintainability issues. The `bug.rb` file shows the problem.  The `bugSolution.rb` illustrates a better approach using a setter method.
